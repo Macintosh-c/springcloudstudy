@@ -11,9 +11,12 @@ public class TestController {
     @Value("${server.port}")
     String port;
 
+    @Value("${from}")
+    String from;
+
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
-        return "hi " + name + " ,i am from port:" + port;
+        return "hi " + name + " ,i am from port:" + port+"form:"+from;
     }
 
 }

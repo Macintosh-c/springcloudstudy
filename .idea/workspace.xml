@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d15a2126-0d6d-4dc8-a163-6d8d9c476b43" name="Default Changelist" comment="">
+    <list default="true" id="d15a2126-0d6d-4dc8-a163-6d8d9c476b43" name="Default Changelist" comment="add gitignore">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/src/main/java/com/jiang/ServiceConfigApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/src/main/java/com/jiang/ServiceConfigApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-config/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,11 +33,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -117,15 +123,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring_cloud_in_action/config-repo/service-hi-dev.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="16" selection-start-column="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -174,6 +171,7 @@
         <option value="$PROJECT_DIR$/service-config/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/service-config/src/main/java/com/jiang/ServiceConfigApplication.java" />
         <option value="$PROJECT_DIR$/service-hi/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -222,13 +220,7 @@
             <path>
               <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloudstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_cloud_in_action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloudstudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloudstudy" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_cloud_in_action" type="462c0819:PsiDirectoryNode" />
-              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -246,12 +238,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -328,7 +326,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568253668503</updated>
-      <workItem from="1568253671920" duration="21792000" />
+      <workItem from="1568253671920" duration="22315000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1568281147072</created>
@@ -337,14 +335,38 @@
       <option name="project" value="LOCAL" />
       <updated>1568281147072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springcloud config add eureka">
+      <created>1568596455132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568596455132</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add gitignore">
+      <created>1568596556496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568596556496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21792000" />
+    <option name="totallyTimeSpent" value="22315000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -352,23 +374,23 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Spring" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Messages" weight="0.32961586" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.32961586" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" weight="0.36183396" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.36183396" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961586" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.45477074" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45477074" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.47335812" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
       <window_info anchor="right" id="Maven" weight="0.3297568" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -386,7 +408,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="springcloud config add eureka" />
+    <MESSAGE value="add gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add gitignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/service-hi/HELP.md">
@@ -672,6 +696,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
         </state>
       </provider>
     </entry>
